@@ -1,5 +1,5 @@
 {
-  "name": "CryptoTool: RSA & Caesar Cipher",
-  "description": "An elegant web application, presented in Arabic as requested, to encrypt and decrypt text using the RSA and Caesar Cipher algorithms. Generate keys, switch between ciphers, and process your text securely.",
+  "name": "Gaming Lounge System",
+  "description": "A comprehensive management system for a gaming lounge, featuring device tracking, session management, financial reporting, and administrative controls. Built with React and TypeScript, styled with Tailwind CSS.",
   "requestFramePermissions": []
 }
