@@ -1,0 +1,5 @@
+{
+  "name": "CryptoTool: RSA & Caesar Cipher",
+  "description": "An elegant web application, presented in Arabic as requested, to encrypt and decrypt text using the RSA and Caesar Cipher algorithms. Generate keys, switch between ciphers, and process your text securely.",
+  "requestFramePermissions": []
+}
