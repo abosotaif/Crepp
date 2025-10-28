@@ -17,8 +17,8 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
-          // FIX: Replaced `__dirname` which is not available in all module systems with `process.cwd()` to resolve to the project root.
-          '@': path.resolve(process.cwd(), '.'),
+          // FIX: Replaced `process.cwd()` with `path.resolve('.')` to avoid a TypeScript type error where the browser `process` type was conflicting with the Node.js `process` type.
+          '@': path.resolve('.'),
         }
       }
     };
